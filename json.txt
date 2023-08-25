@@ -1,0 +1,251 @@
+{
+  "name": "Car Sales Landing Page Header",
+  "type": "FRAME",
+  "absoluteBoundingBox": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 120
+  },
+  "fills": [
+    {
+      "type": "SOLID",
+      "color": { "r": 0.1, "g": 0.1, "b": 0.1 },
+      "opacity": 1
+    }
+  ],
+  "children": [
+    {
+      "name": "Logo",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 50,
+        "y": 30,
+        "width": 120,
+        "height": 60
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": { "r": 1, "g": 1, "b": 1 },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "type": "FRAME",
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisSizingMode": "FILL",
+      "counterAxisSizingMode": "FIXED",
+      "itemSpacing": 20,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "itemPadding": [0, 0, 0, 0],
+      "absoluteBoundingBox": {
+        "x": 250,
+        "y": 50,
+        "width": 800,
+        "height": 40
+      },
+      "fills": [],
+      "children": [
+        {
+          "name": "Home",
+          "type": "TEXT",
+          "content": "Home",
+          "absoluteBoundingBox": {
+            "width": 100,
+            "height": 40
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 1, "g": 1, "b": 1 },
+              "opacity": 1
+            }
+          ],
+          "fontSize": 16,
+          "fontWeight": 500,
+          "fontFamily": "Arial",
+          "textAlignVertical": "CENTER",
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "name": "Cars",
+          "type": "TEXT",
+          "content": "Cars",
+          "absoluteBoundingBox": {
+            "width": 100,
+            "height": 40
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 1, "g": 1, "b": 1 },
+              "opacity": 1
+            }
+          ],
+          "fontSize": 16,
+          "fontWeight": 500,
+          "fontFamily": "Arial",
+          "textAlignVertical": "CENTER",
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "name": "About",
+          "type": "TEXT",
+          "content": "About",
+          "absoluteBoundingBox": {
+            "width": 100,
+            "height": 40
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 1, "g": 1, "b": 1 },
+              "opacity": 1
+            }
+          ],
+          "fontSize": 16,
+          "fontWeight": 500,
+          "fontFamily": "Arial",
+          "textAlignVertical": "CENTER",
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "name": "Contact",
+          "type": "TEXT",
+          "content": "Contact",
+          "absoluteBoundingBox": {
+            "width": 100,
+            "height": 40
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 1, "g": 1, "b": 1 },
+              "opacity": 1
+            }
+          ],
+          "fontSize": 16,
+          "fontWeight": 500,
+          "fontFamily": "Arial",
+          "textAlignVertical": "CENTER",
+          "textAlignHorizontal": "CENTER"
+        }
+      ]
+    },
+    {
+      "name": "AuthButtons",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 1150,
+        "y": 30,
+        "width": 240,
+        "height": 60
+      },
+      "fills": [],
+      "children": [
+        {
+          "name": "LoginButton",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 0,
+            "y": 0,
+            "width": 100,
+            "height": 60
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 0.2, "g": 0.76, "b": 0.49 },
+              "opacity": 1
+            }
+          ],
+          "cornerRadius": 8,
+          "paddingBottom": 1,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "display": "flex",
+          "children": [
+            {
+              "name": "LoginButtonText",
+              "type": "TEXT",
+              "content": "Login",
+              "absoluteBoundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 60
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": { "r": 1, "g": 1, "b": 1 },
+                  "opacity": 1
+                }
+              ],
+              "fontSize": 16,
+              "fontWeight": 500,
+              "fontFamily": "Arial",
+              "textAlignVertical": "CENTER",
+              "textAlignHorizontal": "CENTER"
+            }
+          ]
+        },
+        {
+          "name": "SignupButton",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 120,
+            "y": 0,
+            "width": 100,
+            "height": 60
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": { "r": 0.9, "g": 0.2, "b": 0.2 },
+              "opacity": 1
+            }
+          ],
+          "cornerRadius": 8,
+          "paddingBottom": 1,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "display": "flex",
+          "children": [
+            {
+              "name": "SignupButtonText",
+              "type": "TEXT",
+              "content": "Signup",
+              "absoluteBoundingBox": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 60
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": { "r": 1, "g": 1, "b": 1 },
+                  "opacity": 1
+                }
+              ],
+              "fontSize": 16,
+              "fontWeight": 500,
+              "fontFamily": "Arial",
+              "textAlignVertical": "CENTER",
+              "textAlignHorizontal": "CENTER"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
